@@ -18,6 +18,9 @@ contains two lists, `describejson.py` will just tell you that very
 concisely if you use `--strictness type`. If you want the fact that things
 differ in length or contents, use a higher strictness level.
 
+You can see some examples of the script in use in this blog post:
+http://blogs.fluidinfo.com/terry/2012/08/09/describejson-a-python-script-for-summarizing-json-structure/
+
 The output could probably be more verbose / helpful in some cases, but it's
 a difficult thing to get right, and the point is to produce a small summary
 omitting as much detail as possible.

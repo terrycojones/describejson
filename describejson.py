@@ -82,9 +82,7 @@ class JsonItem(object):
     def _eq_equal(self, other):
         """Lists and dicts must be equal."""
         if self._type == other._type:
-            if self._type == ListType:
-                return self._item == other._item
-            elif self._type == DictType:
+            if self._type in (DictType, ListType):
                 return self._item == other._item
             else:
                 return True

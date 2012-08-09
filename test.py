@@ -182,3 +182,8 @@ class TestDescribeJson(TestCase):
         item = JsonItem(4)
         self.assertEqual("1 int",
                          item.__str__())
+
+
+if __name__ == '__main__':
+    import unittest
+    unittest.main()
